@@ -1,5 +1,5 @@
 # main text of home
-name: John Doe
+name: Preet Lalli
 bio: A Man who travels the world eating noodles
 
 # twitter summary info
@@ -14,9 +14,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://docs.google.com/document/d/1bfRgI_-zMBY9mtJHUm_YHaqit6--60jBep09gutzemA/edit?usp=sharing
 
-url: https://sergiokopplin.github.io/indigo
+url: https://preetl.github.io/personal-website
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,37 +34,31 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: https://www.linkedin.com/in/preet-lalli/
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: https://github.com/preetl
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: preetlalli@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
+    name: Preet Lalli
     bio: A Man who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
     twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
