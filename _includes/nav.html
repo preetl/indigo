@@ -6,10 +6,10 @@
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+        {% if site.about == true %}
+            {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="{{ site.url }}/about">About</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -22,18 +22,26 @@
             {% endif %}
         {% endif %}
 
-        {% if site.about == true %}
-            {% if page.title != "About" %}
+        {% if site.resume == true %}
+            <li class="item">
+                <a class="link" href="https://docs.google.com/document/d/1bfRgI_-zMBY9mtJHUm_YHaqit6--60jBep09gutzemA/edit?usp=sharing">Résumé</a>
+            </li>
+        {% endif %}
+
+        {% if site.blog == true %}
+            {% if page.title != "Extras" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ site.url }}/blog">Extras</a>
                 </li>
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
-            </li>
+        {% if site.experience == true %}
+            {% if page.title != "Experience" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/experience">Experience</a>
+                </li>
+            {% endif %}
         {% endif %}
     </ul>
 </nav>

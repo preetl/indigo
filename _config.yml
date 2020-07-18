@@ -1,6 +1,6 @@
 # main text of home
 name: Preet Lalli
-bio: A Man who travels the world eating noodles
+bio: Artificial Intelligence Intern at Cambridge Consultants Ltd. 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -8,7 +8,14 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/headshot_scholarship.jpeg
+picture: assets/images/square_headshot.jpeg
+japanpic: assets/images/coo.jpeg
+bread1: assets/images/bread3.jpg
+bread2: assets/images/bread1.jpg
+bread3: assets/images/bread2.jpg
+bread4: assets/images/bread4.jpg
+robotics: assets/images/robotics.jpg
+rash: assets/images/rash.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -30,18 +37,18 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname:  # enter this from your disqus account
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 # twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: https://www.linkedin.com/in/preet-lalli/
+linkedin: preet-lalli
 # youtube: myyoutube
 # spotify: myspotify
-github: https://github.com/preetl
+github: preetl
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -55,10 +62,10 @@ email: preetlalli@gmail.com
 authors:
   johndoe:
     name: Preet Lalli
-    bio: A Man who travels the world eating noodles
+    bio: Artificial Intelligence Intern at Cambridge Consultants Ltd. 
     external-image: false
-    picture: assets/images/headshot_scholarship.jpeg
-    twitter: johndoe
+    picture: assets/images/square_headshot.jpeg
+    twitter:
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -78,22 +85,23 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
+experience: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+#read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+#show-tags: true
 
 # related posts inside a post?
-related: true
+#related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+#post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+#show-author: true
 
 # do you want some animations?
 animation: true

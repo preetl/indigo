@@ -2,30 +2,26 @@
 # blog page must be named index.html and in its own folder to support pagination
 # https://jekyllrb.com/docs/pagination/
 layout: page
-title: Blog
+title: Extras
 pagination:
   enabled: true
 ---
-<section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
+<h3>Bread!</h3>
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/{{ site.bread1 }}" alt="Alt Text">
+    </div>
 
-		{% include pagination.html%}
-	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-</section>
+    <div class="toright">
+        <img class="image" src="{{ site.url }}/{{ site.bread2 }}" alt="Alt Text">
+    </div>
+</div>
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/{{ site.bread3 }}" alt="Alt Text">
+    </div>
+
+    <div class="toright">
+        <img class="image" src="{{ site.url }}/{{ site.bread4 }}" alt="Alt Text">
+    </div>
+</div>
